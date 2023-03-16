@@ -1,0 +1,11 @@
+Model Information:
+* title:	NieR:Automata : 2b
+* source:	https://sketchfab.com/3d-models/nierautomata-2b-cec89dce88cf4b3082c73c07ab5613e7
+* author:	Negin (https://sketchfab.com/blackroses)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NieR:Automata : 2b" (https://sketchfab.com/3d-models/nierautomata-2b-cec89dce88cf4b3082c73c07ab5613e7) by Negin (https://sketchfab.com/blackroses) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
