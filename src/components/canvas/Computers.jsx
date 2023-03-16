@@ -21,9 +21,9 @@ const Computer = () => {
       />
       <primitive
         object={computer.scene}
-        scale={4}
-        position={[0, -1.25, 0]}
-        // rotation={[-0.01, -0.2, -0.1]}
+        scale={4.3}
+        position={[0, -0.5, 0]}
+        // rotation={[0, -5, 0]}
       />
     </mesh>
   );
@@ -39,9 +39,17 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate={true}
+          enableDamping={true}
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
+          enablePan={true}
+          enableRotate={true}
+          // rotation={[10, -5, 20]}
+          // attach={true}
+          // minAzimuthAngle={-Math.PI}
+          // maxAzimuthAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 2}
         />
         <Computer />
       </Suspense>

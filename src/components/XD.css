@@ -1,0 +1,10 @@
+canvas {
+  z-index: -100;
+}
+
+h1 {
+  z-index: 100;
+}
+p {
+  z-index: 100;
+}
