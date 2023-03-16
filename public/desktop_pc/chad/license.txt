@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rhetorician
+* source:	https://sketchfab.com/3d-models/rhetorician-a89f035291d843069d73988cc0e25399
+* author:	engine9 (https://sketchfab.com/engine9)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rhetorician" (https://sketchfab.com/3d-models/rhetorician-a89f035291d843069d73988cc0e25399) by engine9 (https://sketchfab.com/engine9) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
