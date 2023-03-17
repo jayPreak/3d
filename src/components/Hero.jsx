@@ -28,6 +28,29 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas />
+      {/* <div className="absolute xs:bottom-52 bottom-56 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="h-6 w-6 border-x-8 border-x-transparent border-b-[16px] border-b-gray-700"></div>
+          <div
+          className="opacity-50"
+            data-te-animation-init
+            data-te-animation-start="onScroll"
+            data-te-animation-on-scroll="repeat"
+            data-te-animation-show-on-load="false"
+            data-te-animation="[slide-right_1s_ease-in-out]"
+            
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-11 w-11"
+            >
+              <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+            </svg>
+          </div>
+        </a>
+      </div> */}
       {/* the uh uh the animated scolly thing */}
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
