@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -37,7 +38,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
       >
         Hi, I'm Jayesh Bhushan, a full stack web developer specializing in
         building dynamic and responsive web applications. With a strong eye for
@@ -56,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, "about");

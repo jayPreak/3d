@@ -1,10 +1,13 @@
 import {
   mobile,
   backend,
+  node1,
   creator,
   web,
   react,
+  figma1,
   javascript,
+  ps,
   typescript,
   html,
   css,
@@ -48,15 +51,15 @@ const services = [
   },
   {
     title: "UI/UX Designer",
-    icon: mobile,
+    icon: figma1,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: node1,
   },
   {
     title: "Graphic Designer",
-    icon: creator,
+    icon: ps,
   },
 ];
 
