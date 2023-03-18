@@ -23,10 +23,11 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Jayesh &nbsp;
-            <span className="sm:block hidden">
+            <span className="md:block hidden ">
               {" "}
-              | Full-Stack Developer | UI/UX Designer
+              | Full-Stack Developer &nbsp;
             </span>
+            <span className="lg:block hidden"> | UI/UX Designer</span>
           </p>
         </Link>
         {/* <p className="text-red-500">yep</p> */}
