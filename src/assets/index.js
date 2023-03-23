@@ -26,6 +26,8 @@ import tripguide from "./tripguide.png";
 import ps from "./photoshop.png";
 
 import kry from "./company/kry.png";
+import adg from "./company/adg.png";
+import coffee from "./company/coffee.png";
 
 export {
   logo,
@@ -53,4 +55,6 @@ export {
   tripguide,
   react,
   kry,
+  adg,
+  coffee,
 };
