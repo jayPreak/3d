@@ -6,6 +6,8 @@ import {
   javascript,
   ps,
   typescript,
+  canvas2d,
+  twozero,
   html,
   css,
   reactjs,
@@ -16,12 +18,12 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  zerochat,
   threejs,
   adg,
   coffee,
+  jayCoffee,
+  exams,
 } from "../assets";
 
 export const navLinks = [
@@ -188,9 +190,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ZeroChat",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience seamless real-time communication with my MERN-based chat application, powered by Socket.io. Connect with others instantly and stay connected in real-time.",
     tags: [
       {
         name: "react",
@@ -201,55 +203,143 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
+        name: "socketio",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+    ],
+    image: zerochat,
+    source_code_link: "https://github.com/jayPreak/chat2",
+  },
+  {
+    name: "TwoZero",
+    description:
+      "Enhance your website's user experience with my JavaScript-powered chatbot, utilizing OpenAI's powerful API to deliver intelligent and engaging conversations with your visitors. Experience the future of customer support and engagement today.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: twozero,
+    source_code_link: "https://github.com/jayPreak/twozero",
   },
   {
-    name: "Trip Guide",
+    name: "2D Canvas Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Embark on an exciting adventure with my 2D side-scrolling game, built using JavaScript and rendered on a dynamic canvas.",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "gamedev",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: canvas2d,
+    source_code_link: "https://github.com/jayPreak/Canvas2DGame",
   },
+  {
+    name: "jayCoffee",
+    description:
+      "Experience the cozy charm of a coffee shop from the comfort of your own screen with my imaginative landing page for an imaginary coffee shop. Built using HTML, CSS, JavaScript, and PHP, immerse yourself in a delightful world filled with enticing aromas, friendly greetings, and a relaxing ambiance that's perfect for coffee lovers everywhere.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jayCoffee,
+    source_code_link: "https://github.com/jayPreak/jayCoffee",
+  },
+  {
+    name: "Examination",
+    description:
+      "Unlock your full potential with my PHP-powered landing page for an examination course company. Discover comprehensive courses designed to help you succeed in your exams, with a user-friendly interface that makes learning easy and accessible. Join our community today and achieve your academic goals!",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: exams,
+    source_code_link: "https://github.com/jayPreak/php-examination",
+  },
+  {
+    name: "Notes App",
+    description:
+      "Organize your life with my versatile notes app, created with React and Node.js. Keep your thoughts and ideas in one place, and easily add, delete, or edit your notes on-the-go. With a sleek and intuitive user interface, managing your tasks has never been easier!",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      // {
+      //   name: "html",
+      //   color: "blue-text-gradient",
+      // },
+    ],
+    image: exams,
+    source_code_link: "https://github.com/jayPreak/NoteApp",
+  },
+  Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.
 ];
 
 export { services, technologies, experiences, testimonials, projects };
