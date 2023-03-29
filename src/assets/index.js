@@ -20,17 +20,28 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// import carrent from "./carrent.png";
+import zerochat from "./zerochat.png";
+import twozero from "./twozero.png";
+import canvas2d from "./canvas2d.png";
+
+// import jobit from "./jobit.png";
+// import tripguide from "./tripguide.png";
 import ps from "./photoshop.png";
+import exams from "./exams.png";
 
 import kry from "./company/kry.png";
 import adg from "./company/adg.png";
 import coffee from "./company/coffee.png";
+import jayCoffee from "./jayCoffee.png";
 
 export {
   logo,
+  zerochat,
+  twozero,
+  canvas2d,
+  exams,
+  jayCoffee,
   ps,
   node1,
   github,
@@ -50,9 +61,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   react,
   kry,
   adg,
