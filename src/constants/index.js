@@ -217,10 +217,10 @@ const projects = [
         name: "socketio",
         color: "blue-text-gradient",
       },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "nodejs",
+      //   color: "green-text-gradient",
+      // },
     ],
     image: zerochat,
     source_code_link: "https://github.com/jayPreak/chat2",
@@ -551,7 +551,7 @@ const projects = [
       },
       {
         name: "framer",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: designportfolio,
