@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import zerochat from "./zerochat.png";
 import twozero from "./twozero.png";
 import canvas2d from "./canvas2d.png";
+import notes from "./notes.png";
 
 // import jobit from "./jobit.png";
 // import tripguide from "./tripguide.png";
@@ -34,12 +35,25 @@ import kry from "./company/kry.png";
 import adg from "./company/adg.png";
 import coffee from "./company/coffee.png";
 import jayCoffee from "./jayCoffee.png";
+import todoapp from "./todoapp.png";
+import blog from "./blog.png";
+import emailer from "./emailer.png";
+import db from "./db.png";
+import band from "./band.png";
+import designportfolio from "./designportfolio.png";
 
 export {
   logo,
+  band,
+  emailer,
+  designportfolio,
+  db,
   zerochat,
+  notes,
+  todoapp,
   twozero,
   canvas2d,
+  blog,
   exams,
   jayCoffee,
   ps,

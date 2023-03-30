@@ -14,15 +14,20 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
+  const onClick = () => {
+    window.open(live_link, "_blank");
+  };
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       {/* test */}
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        // onClick={onClick}
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px]" onClick={onClick}>
           <img
             src={image}
             alt={name}
