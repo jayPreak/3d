@@ -31,6 +31,7 @@ import {
   db,
   band,
   designportfolio,
+  threed,
 } from "../assets";
 
 export const navLinks = [
@@ -217,10 +218,6 @@ const projects = [
         name: "socketio",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "nodejs",
-      //   color: "green-text-gradient",
-      // },
     ],
     image: zerochat,
     source_code_link: "https://github.com/jayPreak/chat2",
@@ -249,256 +246,6 @@ const projects = [
     live_link: "https://twozero.vercel.app/",
   },
   {
-    name: "2D Canvas Game",
-    description:
-      "Embark on an exciting adventure with my 2D side-scrolling game, built using JavaScript and rendered on a dynamic canvas.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "gamedev",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: canvas2d,
-    source_code_link: "https://github.com/jayPreak/Canvas2DGame",
-    live_link: "https://gaymge.vercel.app/",
-  },
-  {
-    name: "jayCoffee",
-    description:
-      "Experience the cozy charm of a coffee shop from the comfort of your own screen with my imaginative landing page for an imaginary coffee shop. Built using HTML, CSS, JavaScript, and PHP, immerse yourself in a delightful world filled with enticing aromas, friendly greetings, and a relaxing ambiance that's perfect for coffee lovers everywhere.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: jayCoffee,
-    source_code_link: "https://github.com/jayPreak/jayCoffee",
-    live_link: "https://github.com/jayPreak",
-  },
-  {
-    name: "Examination",
-    description:
-      "Unlock your full potential with my PHP-powered landing page for an examination course company. Discover comprehensive courses designed to help you succeed in your exams, with a user-friendly interface that makes learning easy and accessible. Join our community today and achieve your academic goals!",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "php",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: exams,
-    source_code_link: "https://github.com/jayPreak/php-examination",
-    live_link: "https://github.com/jayPreak",
-  },
-  {
-    name: "Notes App",
-    description:
-      "Organize your life with my versatile notes app, created with React and Node.js. Keep your thoughts and ideas in one place, and easily add, delete, or edit your notes on-the-go. With a sleek and intuitive user interface, managing your tasks has never been easier!",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      // {
-      //   name: "html",
-      //   color: "blue-text-gradient",
-      // },
-    ],
-    image: notes,
-    source_code_link: "https://github.com/jayPreak/NoteApp",
-    live_link: "https://github.com/jayPreak",
-  },
-  {
-    name: "To-Do List App",
-    description:
-      "Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: todoapp,
-    source_code_link: "https://github.com/jayPreak/todoList",
-    live_link: "https://github.com/jayPreak/",
-  },
-  {
-    name: "Blog App",
-    description:
-      "Share your ideas with the world using my dynamic blog app, developed with EJS and Node.js. Create and publish your own blog posts, explore others' writings, and engage with a community of like-minded individuals. With a sleek and modern design, my blog app lets you express yourself and connect with others in a meaningful way.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ejs",
-        color: "green-text-gradient",
-      },
-    ],
-    image: blog,
-    source_code_link: "https://github.com/jayPreak/Blog-Node",
-    live_link: "https://github.com/jayPreak/",
-  },
-  {
-    name: "Emailer App",
-    description:
-      "Reach your audience effortlessly with my email sending app. Built with Node.js and Mailchimp API integration, send personalized emails and track performance with advanced analytics.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "ejs",
-      //   color: "green-text-gradient",
-      // },
-    ],
-    image: emailer,
-    source_code_link: "https://github.com/jayPreak/emailer2",
-    live_link: "https://github.com/jayPreak/",
-  },
-  {
-    name: "Simeon Says Dragon Ball Game",
-    description:
-      "Play a Dragon Ball inspired Simon Says game with buttons and colors of Goku's Super Saiyan forms. Built with HTML, CSS, and JS, test your reflexes and memory in this fun twist on the classic game.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "nodejs",
-      //   color: "green-text-gradient",
-      // },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      // {
-      //   name: "ejs",
-      //   color: "green-text-gradient",
-      // },
-    ],
-    image: db,
-    source_code_link: "https://github.com/jayPreak/Simeon-Says-ssj",
-    live_link: "https://jaypreak.github.io/Simeon-Says-ssj/",
-  },
-  {
-    name: "Waifu Band",
-    description:
-      "Play a drum set with a twist! Featuring voices and noises of anime characters, my unique drum set lets you rock out with a fun and immersive twist. Built with HTML, CSS, and JS, experience the ultimate anime-inspired music sensation with my Waifu Band.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "nodejs",
-      //   color: "green-text-gradient",
-      // },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-      // {
-      //   name: "ejs",
-      //   color: "green-text-gradient",
-      // },
-    ],
-    image: band,
-    source_code_link: "https://github.com/jayPreak/waifuband",
-    live_link: "https://jaypreak.github.io/waifuband/",
-  },
-  {
     name: "Design Portfolio",
     description:
       "Explore my design portfolio, showcasing my UI/UX designs and graphics with sleek animations. Built with HTML, CSS, and JS, experience my creative vision in a clean and modern interface.",
@@ -507,10 +254,6 @@ const projects = [
         name: "javascript",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "nodejs",
-      //   color: "green-text-gradient",
-      // },
       {
         name: "css",
         color: "pink-text-gradient",
@@ -519,10 +262,6 @@ const projects = [
         name: "html",
         color: "green-text-gradient",
       },
-      // {
-      //   name: "ejs",
-      //   color: "green-text-gradient",
-      // },
     ],
     image: designportfolio,
     source_code_link: "https://github.com/jayPreak/portfolio",
@@ -554,11 +293,84 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: designportfolio,
+    image: threed,
     source_code_link: "https://github.com/jayPreak/3d",
     live_link: "https://jayeshbhushan.me/",
   },
-  // Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.
+  {
+    name: "2D Canvas Game",
+    description:
+      "Embark on an exciting adventure with my 2D side-scrolling game, built using JavaScript and rendered on a dynamic canvas.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gamedev",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: canvas2d,
+    source_code_link: "https://github.com/jayPreak/Canvas2DGame",
+    live_link: "https://gaymge.vercel.app/",
+  },
+  {
+    name: "Notes App",
+    description:
+      "Organize your life with my versatile notes app, created with React and Node.js. Keep your thoughts and ideas in one place, and easily add, delete, or edit your notes on-the-go. With a sleek and intuitive user interface, managing your tasks has never been easier!",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: notes,
+    source_code_link: "https://github.com/jayPreak/NoteApp",
+    live_link: "https://github.com/jayPreak",
+  },
+  {
+    name: "To-Do List App",
+    description:
+      "Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: todoapp,
+    source_code_link: "https://github.com/jayPreak/todoList",
+    live_link: "https://github.com/jayPreak/",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

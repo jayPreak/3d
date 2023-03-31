@@ -41,11 +41,13 @@ import emailer from "./emailer.png";
 import db from "./db.png";
 import band from "./band.png";
 import designportfolio from "./designportfolio.png";
+import threed from "./3d.png";
 
 export {
   logo,
   band,
   emailer,
+  threed,
   designportfolio,
   db,
   zerochat,

@@ -3,7 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body {
+  /* overflow: hidden; */
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 * {
   margin: 0;
   padding: 0;
