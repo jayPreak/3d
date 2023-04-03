@@ -245,58 +245,58 @@ const projects = [
     source_code_link: "https://github.com/jayPreak/twozero",
     live_link: "https://twozero.vercel.app/",
   },
-  {
-    name: "Design Portfolio",
-    description:
-      "Explore my design portfolio, showcasing my UI/UX designs and graphics with sleek animations. Built with HTML, CSS, and JS, experience my creative vision in a clean and modern interface.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "green-text-gradient",
-      },
-    ],
-    image: designportfolio,
-    source_code_link: "https://github.com/jayPreak/portfolio",
-    live_link: "https://jayesh.onrender.com/",
-  },
-  {
-    name: "Current 3D Portfolio",
-    description:
-      "Check out my current portfolio featuring stunning 3D models built with Three.js and displayed with React. With a modern interface designed using Vite, Styled Components, and Framer Motion, browse my latest projects and experiences in an engaging and visually appealing way.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "vitejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "threejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framer",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: threed,
-    source_code_link: "https://github.com/jayPreak/3d",
-    live_link: "https://jayeshbhushan.me/",
-  },
+  // {
+  //   name: "Design Portfolio",
+  //   description:
+  //     "Explore my design portfolio, showcasing my UI/UX designs and graphics with sleek animations. Built with HTML, CSS, and JS, experience my creative vision in a clean and modern interface.",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: designportfolio,
+  //   source_code_link: "https://github.com/jayPreak/portfolio",
+  //   live_link: "https://jayesh.onrender.com/",
+  // },
+  // {
+  //   name: "Current 3D Portfolio",
+  //   description:
+  //     "Check out my current portfolio featuring stunning 3D models built with Three.js and displayed with React. With a modern interface designed using Vite, Styled Components, and Framer Motion, browse my latest projects and experiences in an engaging and visually appealing way.",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "vitejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "threejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "framer",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: threed,
+  //   source_code_link: "https://github.com/jayPreak/3d",
+  //   live_link: "https://jayeshbhushan.me/",
+  // },
   {
     name: "2D Canvas Game",
     description:
@@ -323,54 +323,54 @@ const projects = [
     source_code_link: "https://github.com/jayPreak/Canvas2DGame",
     live_link: "https://gaymge.vercel.app/",
   },
-  {
-    name: "Notes App",
-    description:
-      "Organize your life with my versatile notes app, created with React and Node.js. Keep your thoughts and ideas in one place, and easily add, delete, or edit your notes on-the-go. With a sleek and intuitive user interface, managing your tasks has never been easier!",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: notes,
-    source_code_link: "https://github.com/jayPreak/NoteApp",
-    live_link: "https://github.com/jayPreak",
-  },
-  {
-    name: "To-Do List App",
-    description:
-      "Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.",
-    tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: todoapp,
-    source_code_link: "https://github.com/jayPreak/todoList",
-    live_link: "https://github.com/jayPreak/",
-  },
+  // {
+  //   name: "Notes App",
+  //   description:
+  //     "Organize your life with my versatile notes app, created with React and Node.js. Keep your thoughts and ideas in one place, and easily add, delete, or edit your notes on-the-go. With a sleek and intuitive user interface, managing your tasks has never been easier!",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: notes,
+  //   source_code_link: "https://github.com/jayPreak/NoteApp",
+  //   live_link: "https://github.com/jayPreak",
+  // },
+  // {
+  //   name: "To-Do List App",
+  //   description:
+  //     "Get things done with my simple and efficient todo app, built with Node.js, HTML, JavaScript, EJS, and CSS. Create a list of tasks, mark them as completed with a satisfying checkmark, and easily delete them when you're finished. Stay on top of your to-do list and achieve your goals with ease using my intuitive and user-friendly app.",
+  //   tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "nodejs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: todoapp,
+  //   source_code_link: "https://github.com/jayPreak/todoList",
+  //   live_link: "https://github.com/jayPreak/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
