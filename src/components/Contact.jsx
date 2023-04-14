@@ -29,6 +29,49 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
+
+        <form
+          className="mt-12 flex flex-col gap-8"
+          ref={formRef}
+          onSubmit={handleSubmit}
+        >
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Name</span>
+            <input
+              type="text"
+              name="name"
+              value={form.name}
+              onChange={handleChange}
+              placeholder="Enter your Name"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg text-white outlined-none border-none font-medium"
+            />
+          </label>
+
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Email</span>
+            <input
+              type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
+              placeholder="Enter your Email"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg text-white outlined-none border-none font-medium"
+            />
+          </label>
+
+          <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Message</span>
+            <textarea
+              rows="5"
+              type="text"
+              name="name"
+              value={form.name}
+              onChange={handleChange}
+              placeholder="Enter your Message"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary rounded-lg text-white outlined-none border-none font-medium"
+            />
+          </label>
+        </form>
       </motion.div>
     </div>
   );
