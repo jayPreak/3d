@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylized mushrooms
+* source:	https://sketchfab.com/3d-models/stylized-mushrooms-9d22e02ce2a548959b1c4c4c1d546842
+* author:	QumoDone (https://sketchfab.com/QumoDone)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylized mushrooms" (https://sketchfab.com/3d-models/stylized-mushrooms-9d22e02ce2a548959b1c4c4c1d546842) by QumoDone (https://sketchfab.com/QumoDone) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
