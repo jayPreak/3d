@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### ❤️ Hosted at [ZeroChat](https://jayeshbhushan.me/) 🥰
+### ❤️ Hosted [here](https://jayeshbhushan.me/) 🥰
 
 </div>
 
