@@ -4,12 +4,17 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 //
 // import
+
 import { styles } from "../style";
 import { MushroomCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  const [messageStatus, setMessageStatus] = useState("");
+  const templateId = import.meta.env.VITE_TEMPLATE_ID;
+  const serviceId = import.meta.env.VITE_SERVICE_ID;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
   const formRef = useRef();
   const [form, setForm] = React.useState({
     name: "",
@@ -18,8 +23,55 @@ const Contact = () => {
   });
 
   const [loading, setloading] = useState(false);
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+    setMessageStatus("");
+
+    emailjs
+      .send(
+        serviceId,
+        templateId,
+        {
+          from_name: form.name,
+          to_name: "Jayesh",
+          from_email: form.email,
+          to_email: "jayesh.preak2003@gmail.com",
+          message: form.message,
+        },
+        publicKey
+      )
+      .then(
+        () => {
+          setloading(false);
+          // return <div>Thank u for sending XD</div>;
+          // alert("Thank u for sending XD");
+          setMessageStatus(
+            "Thank you for sending a message! Your message has been sent successfully."
+          );
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setloading(false);
+          console.log(error);
+
+          // return <div>Something went wrong</div>;
+          // alert("Something went wrong");
+          setMessageStatus(
+            "Something went wrong with sending your message. Please try again later."
+          );
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -77,6 +129,9 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          {messageStatus && (
+            <div className="text-white font-medium mt-4">{messageStatus}</div>
+          )}
         </form>
       </motion.div>
 
