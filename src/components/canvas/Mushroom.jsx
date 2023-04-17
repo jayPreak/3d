@@ -5,11 +5,11 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Earth = () => {
-  const earth = useGLTF("./stylized_mushrooms/scene.gltf");
+const Mushroom = () => {
+  const shroom = useGLTF("./stylized_mushrooms/scene.gltf");
   return (
     <primitive
-      object={earth.scene}
+      object={shroom.scene}
       scale={0.85}
       position-y={-1}
       // rotation-y={0}
@@ -18,7 +18,7 @@ const Earth = () => {
   );
 };
 
-const EarthCanvas = () => {
+const MushroomCanvas = () => {
   return (
     <Canvas
       shadows
@@ -39,10 +39,10 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+        <Mushroom />
       </Suspense>
     </Canvas>
   );
 };
 
-export default EarthCanvas;
+export default MushroomCanvas;
