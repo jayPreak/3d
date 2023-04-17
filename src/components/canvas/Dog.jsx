@@ -4,8 +4,8 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
-const Computer = ({ isMobile }) => {
-  const computer = useGLTF("./shiba/scene.gltf");
+const Dog = ({ isMobile }) => {
+  const dog = useGLTF("./shiba/scene.gltf");
 
   return (
     <mesh>
@@ -20,7 +20,7 @@ const Computer = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        object={computer.scene}
+        object={dog.scene}
         scale={isMobile ? 4 : 4.3}
         position={[0, -0.5, 0]}
         // rotation={[0, -5, 0]}
@@ -29,7 +29,7 @@ const Computer = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const DogCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -64,10 +64,10 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
           maxPolarAngle={Math.PI / 2}
         />
-        <Computer isMobile={isMobile} />
+        <Dog isMobile={isMobile} />
       </Suspense>
       <Preload all />
     </Canvas>
   );
 };
-export default ComputersCanvas;
+export default DogCanvas;

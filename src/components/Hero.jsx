@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../style";
-import { ComputersCanvas } from "./canvas";
+import { DogCanvas } from "./canvas";
 import "./XD.css";
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <DogCanvas />
       {/* <div className="absolute xs:bottom-52 bottom-56 w-full flex justify-center items-center">
         <a href="#about">
           <div className="h-6 w-6 border-x-8 border-x-transparent border-b-[16px] border-b-gray-700"></div>
