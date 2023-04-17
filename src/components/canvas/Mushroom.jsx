@@ -41,6 +41,7 @@ const MushroomCanvas = () => {
         />
         <Mushroom />
       </Suspense>
+      <Preload all />
     </Canvas>
   );
 };
