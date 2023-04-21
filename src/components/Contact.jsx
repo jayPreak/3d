@@ -22,6 +22,8 @@ const Contact = () => {
     message: "",
   });
 
+  // XD
+
   const [loading, setloading] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
