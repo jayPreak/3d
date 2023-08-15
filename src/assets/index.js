@@ -42,12 +42,16 @@ import coffee from "./company/coffee.png";
 // import band from "./band.png";
 // import designportfolio from "./designportfolio.png";
 import threed from "./3d.png";
-
+import zerobot from "./zerobot.png";
+import zerosearch from "./zerosearch.png";
+import meinkraft from "./meinkraft.png";
+import pedv from "./pedv.png";
 export {
   logo,
   // band,
   // emailer,
   threed,
+  pedv,
   // designportfolio,
   // db,
   zerochat,
@@ -55,6 +59,9 @@ export {
   // todoapp,
   twozero,
   canvas2d,
+  zerobot,
+  zerosearch,
+  meinkraft,
   // blog,
   // exams,
   // jayCoffee,

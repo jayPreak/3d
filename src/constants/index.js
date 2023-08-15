@@ -32,6 +32,10 @@ import {
   // band,
   // designportfolio,
   threed,
+  zerobot,
+  zerosearch,
+  meinkraft,
+  pedv,
 } from "../assets";
 
 export const navLinks = [
@@ -170,6 +174,110 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "PEDV - Website",
+    description:
+      "A website made for Pixelated Egg, using React Three Fiber, React Three Drei, TailwindCSS, and React Router.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "drei",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pedv,
+    source_code_link: "https://github.com/a-design-guy/pedv-website",
+    live_link: "https://pedv-website.vercel.app",
+  },
+  {
+    name: "MeinKraft - Alpha",
+    description:
+      "A Minecraft clone made using ReactJS, ThreeJS, R3F and drei. You can move around in the 3d space with a First-Person Perspective and create blocks",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "threejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "drei",
+        color: "green-text-gradient",
+      },
+    ],
+    image: meinkraft,
+    source_code_link: "https://github.com/jayPreak/meinkraft-alpha",
+    live_link: "https://meinkraft-alpha.vercel.app",
+  },
+  {
+    name: "ZeroSearch",
+    description:
+      "A user search application built with Next.js, TypeScript, and GraphQL. The app fetches a list of users from a GraphQL API and dynamically displays search results as you type.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zerosearch,
+    source_code_link: "https://github.com/jayPreak/zerosearch",
+    live_link: "https://zerosearch.vercel.app",
+  },
+  {
+    name: "ZeroBot",
+    description:
+      "A Twitter bot that posts every frame of the anime 'Darling in the Franxx', one frame per hour. Made using python, tweepy and requesting images from github.",
+    tags: [
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tweepy",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "requests",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bot",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zerobot,
+    source_code_link: "https://github.com/jayPreak/zerobot",
+    live_link: "https://twitter.com/zero2bot",
+  },
   {
     name: "ZeroChat",
     description:
