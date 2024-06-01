@@ -7,7 +7,7 @@
 </div>
 
 ```
-npm install
+npm install --legacy-peer-deps 
 npm run dev
 ```
 ![image](https://user-images.githubusercontent.com/68821643/232539460-a15e7906-db31-4a8e-b158-e574a80e14bb.png)
