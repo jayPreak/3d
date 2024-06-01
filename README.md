@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### ❤️ Hosted [here](https://jayeshbhushan.me/) 🥰
+### ❤️ Hosted [here](https://jayesh47.netlify.app) 🥰
 
 </div>
 
