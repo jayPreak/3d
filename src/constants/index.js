@@ -1,10 +1,8 @@
 import {
   node1,
   react,
-  figma1,
   kry,
   javascript,
-  ps,
   typescript,
   canvas2d,
   twozero,
@@ -16,7 +14,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   zerochat,
   threejs,
@@ -36,7 +33,13 @@ import {
   zerosearch,
   meinkraft,
   zerofighter,
-  pedv
+  pedv,
+  logo,
+  adeyaar,
+  duorathi,
+  minecraftoneshot,
+  allfitgym,
+  weddingfiles
 } from '../assets'
 
 export const navLinks = [
@@ -56,125 +59,204 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: react
-  },
-  {
-    title: 'UI/UX Designer',
-    icon: figma1
-  },
-  {
     title: 'Backend Developer',
     icon: node1
   },
   {
-    title: 'Graphic Designer',
-    icon: ps
+    title: 'Full Stack Developer',
+    icon: react
+  },
+  {
+    title: 'Cloud & DevOps',
+    icon: docker
   }
 ]
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html
-  },
-  {
-    name: 'CSS 3',
-    icon: css
-  },
-  {
-    name: 'JavaScript',
-    icon: javascript
-  },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
-  {
-    name: 'React JS',
-    icon: reactjs
-  },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb
-  },
-  {
-    name: 'Three JS',
-    icon: threejs
-  },
-  {
-    name: 'git',
-    icon: git
-  },
-  {
-    name: 'figma',
-    icon: figma
-  },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
-  {
-    name: 'Photoshop',
-    icon: ps
-  }
+  { name: 'JavaScript', icon: javascript },
+  { name: 'TypeScript', icon: typescript },
+  { name: 'Node JS', icon: nodejs },
+  { name: 'React JS', icon: reactjs },
+  { name: 'MongoDB', icon: mongodb },
+  { name: 'Three JS', icon: threejs },
+  { name: 'Tailwind CSS', icon: tailwind },
+  { name: 'Docker', icon: docker },
+  { name: 'git', icon: git }
 ]
 
 const experiences = [
   {
-    title: 'Graphic Designer',
-    company_name: 'Kryoss Softtech',
-    icon: kry,
+    title: 'Software Developer (SDE2), Backend',
+    company_name: 'PolicyBazaar AE',
+    icon: logo,
     iconBg: '#383E56',
-    date: 'June 2022 - July 2022',
+    date: 'Jan 2026 - Present',
     points: [
-      'Created daily logos and posters for multiple clients and helped develop the frontend of various client websites.',
-      "Built the logic for a streamlined ad-serving platform, improving the client's ability to target ads effectively.",
-      'Consistently met project milestones and delivered high-quality work that aligned with client expectations.',
-      'Participating in code reviews and providing constructive feedback to other developers.'
+      'Built insurer API integrations in Node.js and Express.js across quote, purchase and policy flows, with validation, retries and error handling.',
+      'Built durable email workflows on Restate (durable sleep, awakeables, scheduled tasks) for renewal and cancellation series.',
+      'Added agentic tool loops, harness engineering and new skills that automate work and improve the QA and developer experience.',
+      'Owned production reliability on AWS EC2, PM2, Redis and MongoDB, and built a Redis session-expiry endpoint (SCAN, not KEYS) so QA can self-serve.'
     ]
   },
   {
-    title: 'Web Designer & Developer',
-    company_name: 'Caffena Coffee',
-    icon: coffee,
+    title: 'Software Developer',
+    company_name: 'Live Building Systems',
+    icon: logo,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Jul 2025 - Jan 2026',
     points: [
-      "Designed eye-catching banners and posters for the company's exhibit using Photoshop and Illustrator to showcase the brand and products.",
-      "Created dynamic web pages using HTML, CSS, and JavaScript to highlight the company's products and services.",
-      "Collaborated with the web development team to streamline the company's online sales by developing a complete e-commerce website using Shopify and Webflow.",
-      'Gained valuable skills in graphic design, web development, and e-commerce, and learned how to effectively communicate with clients, meet tight deadlines, and use various design and development tools such as Photoshop, Illustrator, HTML, CSS, and JavaScript.'
+      'Built React frontends and Python services for internal products.',
+      'Automated billing and reporting workflows in Python using headless Chromium.'
     ]
   },
   {
-    title: 'Web Developer & UI/UX Designer',
+    title: 'Software Developer (SDE1)',
+    company_name: 'AbhiLoans (KnabFinance)',
+    icon: logo,
+    iconBg: '#383E56',
+    date: 'Jan 2024 - Jul 2025',
+    points: [
+      'Built Node.js and TypeScript services on AWS Lambda with SST for scheduled and on-demand jobs, with retries, logging and Baselime monitoring.',
+      'Used MySQL with Drizzle ORM for type-safe data access, and added JWT authentication and authorization middleware to secure the APIs.',
+      'Contributed to app.abhiloans.com, a loan management platform built with Next.js, TypeScript and SST.'
+    ]
+  },
+  {
+    title: 'Full Stack Developer',
     company_name: 'ADesignGuy',
     icon: adg,
-    iconBg: '#383E56',
-    date: 'Apr 2021 - Present',
+    iconBg: '#E6DEDD',
+    date: 'Jan 2021 - Jan 2024',
     points: [
-      'Graphic design and web development work: created posters, banners, animations, and landing pages using various tools such as Photoshop, Illustrator, HTML, CSS, JavaScript, and React.',
-      'Developed a complete e-commerce website for coffee makers, utilizing Shopify and Webflow to streamline online sales process and increase revenue.',
-      "Creating animations and landing pages for the company's main website, using various tools and technologies such as HTML, CSS, JavaScript, and React",
-      'Worked with a team to understand client needs, provide regular updates, and deliver high-quality work.'
+      'Led Angular and React work on dashboards and admin tools for reviewing extracted Shopify data, backed by Express.js and NestJS.',
+      'Built Node.js APIs on MongoDB (Mongoose) with indexing and query optimization, supporting data ingestion, normalization and deduplication.'
     ]
   }
 ]
 
 const projects = [
+  {
+    name: 'AdeYaar 26',
+    description:
+      'A FIFA World Cup 2026 social betting app. Pick winners, place virtual bets on all 72 matches and the cup winner, and climb a live leaderboard with friends.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'react',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'realtime',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: adeyaar,
+    source_code_link: 'https://github.com/jayPreak/adeyaarbet26',
+    live_link: 'https://adeyaar-next.vercel.app'
+  },
+  {
+    name: 'Duorathi',
+    description:
+      'A free, gamified Marathi learning app modeled on Duolingo: bite-sized lessons, daily streaks, XP, hearts and gems.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'typescript',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'auth',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'gamification',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: duorathi,
+    source_code_link: 'https://github.com/jayPreak/duorathi',
+    live_link: 'https://duorathi.vercel.app'
+  },
+  {
+    name: 'Blockyard',
+    description:
+      'A pocket voxel sandbox where every texture, sound and world is generated in code. Fly, break and place blocks, with autosaved worlds.',
+    tags: [
+      {
+        name: 'javascript',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'threejs',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'procedural',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'gamedev',
+        color: 'blue-text-gradient'
+      }
+    ],
+    image: minecraftoneshot,
+    source_code_link: 'https://github.com/jayPreak/minecraft-oneshot',
+    live_link: 'https://minecraft-oneshot.vercel.app'
+  },
+  {
+    name: 'All Fit Gym',
+    description:
+      'Client website for a Gurugram gym: services, reviews and one-tap WhatsApp enquiries. Shipped and deployed on Vercel.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'vercel',
+        color: 'green-text-gradient'
+      }
+    ],
+    image: allfitgym,
+    source_code_link: 'https://github.com/jayPreak/all-fit-gym',
+    live_link: 'https://all-fit-gym.vercel.app'
+  },
+  {
+    name: 'The Wedding Files',
+    description:
+      'Client website for a documentary-style wedding photographer, with portfolio and WhatsApp booking.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient'
+      },
+      {
+        name: 'vercel',
+        color: 'green-text-gradient'
+      }
+    ],
+    image: weddingfiles,
+    source_code_link: 'https://github.com/jayPreak/the-wedding-files',
+    live_link: 'https://the-wedding-files.vercel.app'
+  },
   {
     name: 'ZeroFigter',
     description:

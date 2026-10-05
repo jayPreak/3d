@@ -48,8 +48,18 @@ import zerobot from './zerobot.png'
 import zerosearch from './zerosearch.png'
 import meinkraft from './meinkraft.png'
 import pedv from './pedv.png'
+import adeyaar from './adeyaar.png'
+import duorathi from './duorathi.png'
+import minecraftoneshot from './minecraftoneshot.png'
+import allfitgym from './allfitgym.png'
+import weddingfiles from './weddingfiles.png'
 export {
   logo,
+  adeyaar,
+  duorathi,
+  minecraftoneshot,
+  allfitgym,
+  weddingfiles,
   // band,
   // emailer,
   threed,

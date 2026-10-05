@@ -19,10 +19,9 @@ const Hero = () => {
             Hi I'm <span className="text-[#b71758]">Jayesh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Passionate about crafting seamless digital experiences that bridge
-            the gap between
-            <span className="text-[#b71758]"> aesthetics</span> and{" "}
-            <span className="text-[#b71758]">functionality</span>
+            Backend-focused full stack developer building reliable
+            <span className="text-[#b71758]"> APIs</span>,{" "}
+            <span className="text-[#b71758]">workflows</span> and web apps
           </p>
         </div>
       </div>

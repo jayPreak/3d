@@ -40,12 +40,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
       >
-        Hi, I'm Jayesh Bhushan, a full stack web developer specializing in
-        building dynamic and responsive web applications. With a strong eye for
-        design and a deep understanding of user behavior, I create websites that
-        look great and provide an enjoyable user experience. Check out my
-        portfolio to see some of my recent projects, and let's connect to
-        discuss your next project!
+        Hi, I'm Jayesh Bhushan, a backend-focused full stack developer (SDE2)
+        at PolicyBazaar. I build Node.js and TypeScript services, insurer API
+        integrations, durable workflows and cloud infrastructure on AWS, and I
+        ship React and Three.js frontends on the side. Check out my projects
+        below, and let's connect!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

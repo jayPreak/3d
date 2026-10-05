@@ -27,7 +27,7 @@ const Navbar = () => {
               {" "}
               | Full-Stack Developer &nbsp;
             </span>
-            <span className="lg:block hidden"> | UI/UX Designer</span>
+            <span className="lg:block hidden"> | Backend Engineer</span>
           </p>
         </Link>
         {/* <p className="text-red-500">yep</p> */}

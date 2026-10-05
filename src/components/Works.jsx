@@ -64,7 +64,6 @@ const ProjectCard = ({
 }
 
 const Works = () => {
-  console.log(projects)
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -76,11 +75,8 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          As someone who is passionate about creating visually stunning and
-          functional websites, I've worked on a diverse range of projects over
-          the years. In this section, I'm excited to share some of my favorite
-          projects that highlight my skills in full-stack web development,
-          UI/UX, and graphic design.
+          A selection of things I've built, from backend services and realtime
+          apps to 3D experiences and games, plus a few sites shipped for clients.
         </motion.p>
       </div>
 
